@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstpage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header_background">
+        <div class="header_wrapper">
+            <img src="/src/icons/Слой 2.svg" alt="">
+            <div class="button_white_inside">
+                <button class="button_white">
+                    <p class="small" style="color: var(--6-b-39-cb-main-purple-hover, #6B39CB);">Выйти из аккаунта</p>
+                </button>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="conteiner_main">
+            <!-- Registration form header -->
+            <div class="registration_page">
+                <button class="button_white">
+                    <p class="small" style="color: var(--6-b-39-cb-main-purple-hover, #6B39CB);">На главную</p>
+                </button>
+                <div class="registration_header">
+                    <div class="registration_title">
+                        <h3 class="h3">Создание профиля</h3>
+                    </div>
+                    <div class="registration_wrapper">
+                        <p class="p_bold" style="color: #CCC;">/</p>
+                        <p class="p_bold" style="color: #CCC;">О себе</p>
+                    </div>
+                </div>
+                <div class="registration_bar">
+                    <div class="registration_line"></div>
+                </div>
+
+            </div>
+            <div class="registration_form_wrapper">
+                <!-- Registration form wrapper -->
+                <div class="profile">
+                    <!-- form -->
+                    <form class="registration_steps ">
+                            <div class="avatar_input">
+                                <label for="input_file" class="avatar_input_wrapper">
+                                    <p class="p_bold">Аватар профиля</p>
+                                    <button class="p_button" style="color: var(--ffffff-white-main, #FFF)">Загрузить</button>
+                                    <p class="small" style="color: #CCC; text-align: center; align-self: stretch;" >Загрузите фотографию весом не более 10 мб</p>
+                                </label>
+                                <input type="file" id="input_file" accept=".png,.jpg,.jpeg ">
+                            </div>
+                            <div class="text_input_wrapper">
+                                <label for="first_name_and_surname" class="small" style="color: var(--5-d-5-b-66-secondary-black, #5D5B66);">Имя и фамилия</label>
+                                <input class="input_" ="first_name_and_surname" id="first_name_and_surname" placeholder="Имя и фамилия" type="text">
+                            </div>
+                            <div>
+                                
+                                <label for="MAN" class="p_paragraph" style="color: var(--040013-black-main, #040013);">
+                                    <input class="input_radio" id="MAN" type="radio" name="gender" value="MAN">
+                                    Парень</label>
+                                
+                                <label for="WOMAN" class="p_paragraph" style="color: var(--040013-black-main, #040013);">
+                                    <input class="input_radio" id="MAN" type="radio" name="gender" value="MAN">
+                                    Девушка</label>
+                            </div>
+                            <div >
+                                <input class="input_"  style="color: #A1A6B1;"  name="Birthday" id="Birthday" placeholder="Дата рождения" type="text">
+                            </div>
+                            <div class="text_input_wrapper">
+                                <input class="input_" name="telegram" id="Telegram" placeholder="Телеграм" class="p_paragraph" style="color: #A1A6B1;" type="text">
+                            </div>
+                            <div class="text_input_wrapper">
+                                <label for="Phone" class="small" style="color: var(--5-d-5-b-66-secondary-black, #5D5B66);" >Номер телефона</label>
+                                <input class="input_" name="Phone" id="Phone" type="tel">
+                            </div>
+                            <div>
+                                <label for="infa" class="small" style="color: var(--5-d-5-b-66-secondary-black, #5D5B66);">О себе</label>
+                                <textarea class="textarea_" name="infa" id="infa" cols="30" rows="10"></textarea>
+                                <p class="comment">Редко готовлю, но люблю ботать на кухне по ночам.
+                                    Хочу завести собаку. Очень люблю читать, играть в хорроры
+                                    и смотреть аниме. Открыт к общению и взаимопомощи.</p>
+                            </div>
+                    </form>
+                </div>
+                    <div class="profile_component">
+                        <p class="small" style="color: var(--5-d-5-b-66-secondary-black, #5D5B66);">Так будет выглядеть твоя будущая страница</p>
+                        <div class="profile_card">
+                            <div class="profile_card_left">
+                                <img src="/src/icons/фото мини.svg" alt="">
+                                <button  class="p_button" style="color: var(--ffffff-white-main, #FFF)">
+                                    <p>Показать контакты</p>
+                                </button>
+                            </div>
+                            <div class="profile_card_right">
+                                <p class="head_">Дарья Воронцова</p>
+                                <div class="fio">
+                                    <p class="head_level_2">Девушка</p>
+                                    <p class="head_level_2">17 лет</p>
+                                    <div class="grey_window"></div> 
+                                </div>    
+                                <div class="grey_window_level_2"></div>   
+                            </div>
+                        </div>
+                        <div class="profile_card_down">
+                            <p class="p_bold" style="color: var(--040013-black-main, #040013);">Мы совсем ничего про тебя не знаем</p>
+                            <div class="profile_card_down_inside">
+                                <div>
+                                    <p class="small" style="color: var(--5-d-5-b-66-secondary-black, #5D5B66);">Расскажи о себе.</p>
+                                    <p class="small" style="color: var(--5-d-5-b-66-secondary-black, #5D5B66);">Люди пишут тем, кому доверяют. Тем более при поиске соседа</p>
+                                </div>
+                                <p class="h3" style="color: #000; text-align: center;">🙁</p>
+                            </div>   
+                        </div>
+                    </div>
+            </div>
+            <div class="button_next_container">
+                <button class="p_button" style="color: var(--ffffff-white-main, #FFF);" >Продолжить</button>
+            </div>
+            
+        </div>
+ 
+    </main>
+    <footer class="footer_footer">
+        <div class="footer_container">
+            <div class="footer_help">
+                <div class="footer_email_links">
+                    <a href="mailto:Support@homeet.com" class="h2" style="color: var(--7953-c-3-purple-main, #7953C3)">Support@homeet.com</a>
+                    <a href="" class="p_paragraph" style="color: #AAA; text-decoration: none;" >Техническая поддержка</a>
+                </div>
+                <div class="footer_row">
+                    <div class="footer_links">
+                    <p class="p_paragraph" style="color: var(--040013-black-main, #040013);" >О сервисе</p>
+                    <p class="p_paragraph" style="color: var(--040013-black-main, #040013);" >Контакты</p>
+                    <p class="p_paragraph" style="color: var(--040013-black-main, #040013);" >Политика конфиденциальности</p>
+                    </div>
+                    <div class="footer_social">
+                        <a class="social_back" href="">
+                         <img class="link_social" src="/src/icons/Frame 9600.svg" alt="">
+                        </a>
+                        <a href="" class="social_back">
+                          <img class="link_social" src="/src/icons/Frame 9601.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_divider"></div>  
+                <div class="footer_text">
+                    <div>
+                        <p class="small" style="color: #AAA;" >Предложение не является публичной офертой.</p>
+                        <p class="small" style="color: #AAA;"> Сервис не несет ответственности за действия пользователей, достоверность информации и т.д.</p> 
+                    </div>
+                    <p claas="small" style="color: #aaa;" >Сделано в <span class="small" style="color: var(--5-d-5-b-66-secondary-black, #5D5B66);">бвср</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer_line" ></div>
+    </footer>
+</body>
+
+</html>
